@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[CortexRight]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[IPL_new1.R.2.32k.func.gii:
+/DATA/232/lqcheng/software/workbench/bin_rh_linux64/../exe_rh_linux64/wb_command -metric-resample IPL_new1.R.2.10k.func.gii /DATA/232/lqcheng/Monkey/HCPNHP/NHPPipelines/global/templates/standard_mesh_atlases_macaque/R.sphere.10k_fs_LR.surf.gii /DATA/232/lqcheng/Monkey/HCPNHP/NHPPipelines/global/templates/standard_mesh_atlases_macaque/R.sphere.32k_fs_LR.surf.gii BARYCENTRIC IPL_new1.R.2.32k.func.gii -largest
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 1.2.3
+Qt Compiled Version: 4.8.4
+Qt Runtime Version: 4.8.4
+Commit: c170db0277de04cb8a5c04fdf96e45adcda47d6d
+Commit Date: 2016-08-23 19:08:10 -0500
+Compiled with OpenMP: YES
+Compiler: g++44 (/usr/bin)
+Compiler Version: 4.4.7
+Compiled Debug: NO
+Operating System: Linux
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[/DATA/232/lqcheng/software/workbench/bin_rh_linux64/../exe_rh_linux64/wb_command -metric-label-import IPL_new1.R.2.32k.func.gii ../../table_6.txt IPL_new1.R.2.32k.label.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/DATA/232/lqcheng/IPL_COMP/Macaque_VB/IPL_new1_R_sc_norm_32k]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+      <Label Key="1" Red="0" Green="1" Blue="0" Alpha="1"><![CDATA[IPL_6_1]]></Label>
+      <Label Key="2" Red="0" Green="0" Blue="1" Alpha="1"><![CDATA[IPL_6_2]]></Label>
+      <Label Key="3" Red="1" Green="0" Blue="0" Alpha="1"><![CDATA[IPL_6_3]]></Label>
+      <Label Key="4" Red="0" Green="0.964706" Blue="1" Alpha="1"><![CDATA[IPL_6_4]]></Label>
+      <Label Key="5" Red="0.831373" Green="0.172549" Blue="0.768627" Alpha="1"><![CDATA[IPL_6_5]]></Label>
+      <Label Key="6" Red="1" Green="0.482353" Blue="0.862745" Alpha="1"><![CDATA[IPL_6_6]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_LABEL"
+           DataType="NIFTI_TYPE_INT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="32492"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+   </MetaData>
+   <Data>eJzt2dEKgkAQQFHr/z+6J2GRtMmc2THOgcWXcC4auNmyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8r2dwAQBAd3fYx3bfb3f+bdC17a5d3Zpm6tLSpWNsmd0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsOcRWABAP8/Ninx2fa7PfO6faZ61V9le48iK9Ga1Z7de1VvR+Wtrxb0fO8/0VjaeuabVbd/0VXdF26qbIl3VPZ+aqluOeqo79lqqG951zGpYjzPmjx3rvGU4jjLmjjP3VHz/Mud2m3VFQ+cZ0VlXnP/oCAAAAABAvfEdcOV726x30Z1mzp6VMW977swZWfwvAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQ6wWhqQN3</Data>
+</DataArray>
+</GIFTI>
